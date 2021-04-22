@@ -8,3 +8,7 @@ version: 2
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
    configuration: source/conf.py
+   
+# to get rid of build error on RtD server as per https://github.com/readthedocs/readthedocs.org/issues/2569
+# Sphinx error: master file /usr/src/app/checkouts/readthedocs.org/user_builds/demo-sphinx-serv/checkouts/latest/source/contents.rst not found
+master_doc = 'index'
