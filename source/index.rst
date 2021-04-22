@@ -8,7 +8,6 @@ Documentation
    new.rst
    plan.rst
    deploy.rst
-   manage.rst
 
 Indices and tables
 ==================
